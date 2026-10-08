@@ -19,8 +19,3 @@ Open http://localhost:8000 in Chrome.
 ## Deploy (Render)
 Build: `pip install -r requirements.txt`. Start: `uvicorn main:app --host 0.0.0.0 --port $PORT`. Add the env vars. HTTPS is required for the mic and Render provides it.
 
-## Reflections (rewrite in your own words)
-1. **Stack:** (why modular pipeline, FastAPI, free-tier providers, you can explain every stage)
-2. **Hardest part:** (e.g. turn-taking and barge-in, keeping policy answers accurate)
-3. **One more week:** (e.g. server-side streaming STT/TTS with a better Indian voice, guardrail test suite, Hinglish)
-4. **1,000 calls/day:** (e.g. cost and latency monitoring, provider fallbacks, real order DB/auth, logging with PII redaction, human handoff, load tests)
